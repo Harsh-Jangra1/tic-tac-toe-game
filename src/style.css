@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #ff0000;
+  display: grid;
+  place-items: center;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 25vw;
+  height: 50vh;
+  gap: 20px;
+  padding: 20px;
+}
+
+.box-container .box {
+  border-radius: 10px;
+  background: #000;
+  color: #FFFFFF;
+  font-size: 2em;
+  padding: 30px 20px 20px 35px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  margin-left: 33%;
+}
